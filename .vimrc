@@ -52,7 +52,8 @@ Plug 'mhartington/oceanic-next'
 Plug 'srcery-colors/srcery-vim'
 Plug 'garbas/vim-snipmate' 
 Plug 'MarcWeber/vim-addon-mw-utils' 
-Plug 'tomtom/tlib_vim' 
+Plug 'tomtom/tlib_vim'
+Plug 'rhysd/open-pdf.vim'
 call plug#end()
 
 "fix snipmate warning"

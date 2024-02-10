@@ -1,5 +1,6 @@
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$/home/jason/.local/bin:HOME/bin:/usr/local/bin:$PATH:/home/jason/Documents/advanced_compiler/llvm_build/bin
+export OFFICE=140.114.76.1
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -9,9 +10,6 @@ export ZSH="$HOME/.oh-my-zsh"
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="bullet-train"
-
-TERM=xterm-256color
-
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in $ZSH/themes/
@@ -109,4 +107,5 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias 'sshos'='sshpass -p Adhe63g ssh os22team71@10.121.187.197'
+alias 'sshoffice'='sshpass -p 20000317 ssh -p 2222 140.114.76.1 -Y'
+
